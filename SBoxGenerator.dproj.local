@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/19 08:51:03.000.382,=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/04 17:21:00.772,=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/04 17:22:15.254,E:\Utils\_All Languages_\Family Delphi\_All Projects_\SBox Generator\MainFrm.pas=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/04 17:22:15.254,E:\Utils\_All Languages_\Family Delphi\_All Projects_\SBox Generator\MainFrm.fmx=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/06/04 17:22:31.286,E:\Utils\_All Languages_\Family Delphi\_All Projects_\SBox Generator\SBoxGenerator.dproj=C:\Users\Kostas\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

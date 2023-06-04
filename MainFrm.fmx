@@ -1,0 +1,112 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'SBox Generator'
+  ClientHeight = 333
+  ClientWidth = 967
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object btnGenerate: TButton
+    Position.X = 216.000000000000000000
+    Position.Y = 228.000000000000000000
+    Size.Width = 160.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Generate'
+    OnClick = btnGenerateClick
+  end
+  object GroupBox1: TGroupBox
+    Align = Top
+    Size.Width = 967.000000000000000000
+    Size.Height = 110.000000000000000000
+    Size.PlatformDefault = False
+    Text = ' A: SBox '
+    TabOrder = 1
+    object memoRaw: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Client
+      Size.Width = 967.000000000000000000
+      Size.Height = 110.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 963.000000000000000000
+      Viewport.Height = 106.000000000000000000
+    end
+  end
+  object GroupBox2: TGroupBox
+    Align = Top
+    Position.Y = 110.000000000000000000
+    Size.Width = 967.000000000000000000
+    Size.Height = 110.000000000000000000
+    Size.PlatformDefault = False
+    Text = ' B: SBox in Hex '
+    TabOrder = 2
+    object memoHex: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Client
+      Size.Width = 967.000000000000000000
+      Size.Height = 110.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 963.000000000000000000
+      Viewport.Height = 106.000000000000000000
+    end
+  end
+  object btnCopyA: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 228.000000000000000000
+    TabOrder = 3
+    Text = 'Copy A'
+    OnClick = btnCopyAClick
+  end
+  object btnCopyB: TButton
+    Position.X = 96.000000000000000000
+    Position.Y = 228.000000000000000000
+    TabOrder = 4
+    Text = 'Copy B'
+    OnClick = btnCopyBClick
+  end
+  object Label1: TLabel
+    StyledSettings = [Style]
+    Position.X = 8.000000000000000000
+    Position.Y = 271.000000000000000000
+    Size.Width = 560.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 
+      'Fast Walsh-Hadamard Transform by Luis Villasenor to generate non' +
+      'linearity * https://github.com/lvillasen'
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    StyledSettings = [Style]
+    Position.X = 8.000000000000000000
+    Position.Y = 292.000000000000000000
+    Size.Width = 560.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 
+      'Efficient Dynamic S-Box Generation Using Linear Trigonometric Tr' +
+      'ansformation for Security Applications '
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    StyledSettings = [Style]
+    Position.X = 8.000000000000000000
+    Position.Y = 312.000000000000000000
+    Size.Width = 959.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 
+      'paper (10.1109/ACCESS.2021.3095618) published July 8, 2021 and s' +
+      'upported by Texas A&M University-San Antonio * https://ieeexplor' +
+      'e.ieee.org/stamp/stamp.jsp?arnumber=9477572'
+    TabOrder = 7
+  end
+end
